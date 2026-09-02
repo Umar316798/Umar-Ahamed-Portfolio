@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Ahamed — Electrical & Embedded Systems Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                        accent: '#38bdf8',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkbg text-slate-100 font-sans antialiased selection:bg-accent selection:text-slate-900">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-darkbg/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-accent">Umar Ahamed</a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-accent transition">About</a>
+                <a href="#skills" class="hover:text-accent transition">Skills</a>
+                <a href="#experience" class="hover:text-accent transition">Experience</a>
+                <a href="#projects" class="hover:text-accent transition">Projects</a>
+                <a href="#leadership" class="hover:text-accent transition">Leadership</a>
+                <a href="#interests" class="hover:text-accent transition">Interests</a>
+            </nav>
+            <a href="mailto:umar.ahamed@sjsu.edu" class="hidden sm:inline-flex items-center gap-2 bg-accent/10 text-accent border border-accent/20 px-4 py-2 rounded-full text-sm font-medium hover:bg-accent/20 transition">
+                <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 px-6 max-w-6xl mx-auto flex flex-col items-start justify-center min-h-[90vh]">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-accent text-xs font-semibold uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span> Electrical Engineering Student @ SJSU
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
+            Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-indigo-400">Umar Ahamed</span>.
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed">
+            Electrical and Embedded Systems Engineer specializing in custom RISC-V processors, hardware-level control loops, multi-layer PCB design, and FPGA architecture.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="#projects" class="bg-accent text-slate-950 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-sky-400 transition flex items-center gap-2">
+                <i class="fa-solid fa-code"></i> View Projects
+            </a>
+            <a href="https://www.linkedin.com/in/umar-ahamed-a94382259/" target="_blank" class="bg-cardbg border border-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition flex items-center gap-2">
+                <i class="fa-brands fa-linkedin text-accent"></i> LinkedIn
+            </a>
+            <a href="tel:5103966855" class="bg-cardbg border border-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition flex items-center gap-2">
+                <i class="fa-solid fa-phone text-accent"></i> (510) 396-6855
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-graduation-cap text-accent"></i> Education
+        </h2>
+        <div class="bg-cardbg border border-slate-800 p-6 rounded-xl shadow-md">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                <div>
+                    <h3 class="text-xl font-semibold text-white">Bachelor of Science, Electrical Engineering</h3>
+                    <p class="text-accent font-medium">San Jose State University, San Jose</p>
+                </div>
+                <span class="mt-2 md:mt-0 text-sm font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">
+                    Expected December 2027
+                </span>
+            </div>
+            <p class="text-slate-400 text-sm">Location: San Jose, CA</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-microchip text-accent"></i> Technical Skills
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-accent mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-bolt"></i> Hardware & Tools
+                </h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    PCB Design, Altium Designer, KiCad, LTspice, Multisim, Oscilloscope, Signal Generator, Soldering, Raspberry Pi, Arduino, Microcontrollers, GPIO, UART, SPI, I2C, CAN Bus, ASIC/FPGA Design.
+                </p>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-accent mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-laptop-code"></i> Languages & Software
+                </h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    Python, C, C++, Verilog, SystemVerilog, MATLAB, Git, VS Code, Linux, Jupyter Notebook, FastAPI, NumPy, Matplotlib, Pandas.
+                </p>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-accent mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-gears"></i> Core Disciplines
+                </h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    Circuit Analysis, Signal Processing, Architecture Design, Low-Noise PCB Layout, Hardware Verification, Real-Time Systems telemetry.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-briefcase text-accent"></i> Experience
+        </h2>
+        <div class="space-y-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white">Research Assistant</h3>
+                        <p class="text-accent font-medium">San Jose State University</p>
+                    </div>
+                    <span class="mt-2 md:mt-0 text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">
+                        June 2025 – August 2025
+                    </span>
+                </div>
+                <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                    <li>Developed a logic-based binary classifier in Verilog for implementation on a custom Tiny Tapeout ASIC chip.</li>
+                    <li>Designed a VGA output interface in Verilog using RGB color encoding and VGA timing signals (HSYNC/VSYNC) to display real-time system states driven by digital switch inputs.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-diagram-project text-accent"></i> Project Experience
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-lg font-semibold text-white">Active Thermal-Aware RISC-V Pipeline Core</h3>
+                        <span class="text-xs bg-accent/10 text-accent px-2.5 py-1 rounded border border-accent/20">May 2026 – Present</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm mb-4">
+                        <li>Modified an open-source, multi-stage RISC-V microprocessor architecture using Verilog to implement active hardware monitoring modules.</li>
+                        <li>Designed inline digital counters within the execution pipeline to track instruction-stream weights and detect localized switching noise hot spots.</li>
+                        <li>Integrated a hardware-level control feedback loop to dynamically regulate processor clock states and mitigate thermal degradation constraints.</li>
+                    </ul>
+                </div>
+                <div class="flex gap-2 flex-wrap pt-2">
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Verilog</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">RISC-V</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Hardware Design</span>
+                </div>
+            </div>
+
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-lg font-semibold text-white">ChargeSense Battery Management System</h3>
+                        <span class="text-xs bg-accent/10 text-accent px-2.5 py-1 rounded border border-accent/20">July 2026 – Present</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm mb-4">
+                        <li>Designed and built an edge-driven Battery Management System (BMS) utilizing an embedded microprocessor to track real-time cell parameters.</li>
+                        <li>Engineered a low-noise, multi-layer PCB in KiCad, isolating high-current charging paths from sensitive analog-to-digital converter (ADC) lines to mitigate EMI.</li>
+                        <li>Developed a real-time Python serial logging engine to capture active current/voltage telemetry packets and execute parametric estimation models.</li>
+                    </ul>
+                </div>
+                <div class="flex gap-2 flex-wrap pt-2">
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">KiCad</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Python</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Embedded Systems</span>
+                </div>
+            </div>
+
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col justify-between md:col-span-2">
+                <div>
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-lg font-semibold text-white">Embedded AI Smart Fall Detection</h3>
+                        <span class="text-xs bg-accent/10 text-accent px-2.5 py-1 rounded border border-accent/20">Apr 2025 – Aug 2025</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm mb-4">
+                        <li>Developed a real-time computer vision system on the Raspberry Pi platform utilizing OpenCV to achieve high-accuracy edge object detection.</li>
+                        <li>Engineered a custom fall-detection algorithm that mitigated false positives by 40% through dynamic aspect ratio analysis and a 10-frame consecutive detection threshold loop.</li>
+                        <li>Integrated low-level hardware control loops via RPi.GPIO to drive real-time digital outputs (LED/buzzer indicators) with a low latency response time of under 2 seconds.</li>
+                    </ul>
+                </div>
+                <div class="flex gap-2 flex-wrap pt-2">
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Raspberry Pi</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">Python</span>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">OpenCV</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-users text-accent"></i> Leadership & Community
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-white">IEEE Student Chapter (SJSU)</h3>
+                <p class="text-accent font-medium text-sm mb-3">Digital & Analog Team Officer</p>
+                <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                    <li>Led technical workshops on PCB layout fabrication, mentoring students on building custom buck converters and EMG circuits.</li>
+                    <li>Architecting custom RISC-V processors for the Fall 2026 CPU development series.</li>
+                </ul>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl">
+                <h3 class="text-lg font-semibold text-white">Circuit Design Initiative (CDI)</h3>
+                <p class="text-accent font-medium text-sm mb-3">Director & Hardware Instructor</p>
+                <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                    <li>Directing full-lifecycle development of Arduino robotics and instructing peers on analog design principles.</li>
+                    <li>Translating personal BMS prototype insights into student-facing laboratory testing frameworks.</li>
+                    <li>Launching a collaborative club initiative to design an FPGA-based 3D Graphics Accelerator using Verilog and AXI4-Lite register mapping specifications.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800/80">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-8 text-white flex items-center gap-3">
+            <i class="fa-solid fa-heart text-accent"></i> Interests
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col items-center text-center hover:border-accent/40 transition">
+                <span class="text-4xl mb-3">🏋️</span>
+                <h3 class="text-base font-semibold text-white">Gym</h3>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col items-center text-center hover:border-accent/40 transition">
+                <span class="text-4xl mb-3">⚽</span>
+                <h3 class="text-base font-semibold text-white">Soccer</h3>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col items-center text-center hover:border-accent/40 transition">
+                <span class="text-4xl mb-3">🏊</span>
+                <h3 class="text-base font-semibold text-white">Swimming</h3>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-xl flex flex-col items-center text-center hover:border-accent/40 transition">
+                <span class="text-4xl mb-3">🥾</span>
+                <h3 class="text-base font-semibold text-white">Hiking</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-12 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+                <p class="text-lg font-bold text-white">Umar Ahamed</p>
+                <p class="text-sm text-slate-400">Electrical & Embedded Systems Engineer • San Jose State University</p>
+            </div>
+            <div class="flex items-center space-x-6 text-slate-400">
+                <a href="mailto:umar.ahamed@sjsu.edu" class="hover:text-accent transition text-xl"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/umar-ahamed-a94382259/" target="_blank" class="hover:text-accent transition text-xl"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="tel:5103966855" class="hover:text-accent transition text-xl"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-8 pt-6 border-t border-slate-900 text-center text-xs text-slate-600">
+            &copy; 2026 Umar Ahamed. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
